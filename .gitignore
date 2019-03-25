@@ -1,0 +1,58 @@
+# ignore everything in the root except the "wp-content" directory.
+/*
+wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+#plugins, and themes directories
+
+wp-content/*
+wp-content/plugins/
+wp-content/themes/
+
+# ignore all plugins and themes except
+
+wp-content/plugins/*
+wp-content/plugins/elementor
+
+wp-content/themes/*
+wp-content/themes/sydney
+wp-content/themes/sydney-child
+
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.rar
+*.tar
+*.zip
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+!README.md
+!CHANGELOG.md
+!composer.json
+
+
+
