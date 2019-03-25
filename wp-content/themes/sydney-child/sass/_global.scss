@@ -1,0 +1,38 @@
+
+//Blog section on Front-page
+
+.latest-posts{
+	.description{
+	   text-align:center;
+	   padding: 20px;
+	}
+	.button{
+    background-color: #656565;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+      a{
+        color:$white;
+        &:hover{
+        color:$white;
+        }
+      }
+	}
+}
+//Blog Single Page
+.category-blogs{
+	margin:5rem 0;
+}
+
+.entry-header{
+    border-left: 3px solid $green;
+    padding: 4rem;
+    margin-bottom: 4rem;
+    box-shadow: 8px 8px 8px #eee;
+	.title-post{
+	   font-weight: $font-weight-bold;
+	}
+	.single-meta{
+       font-size: 12px;
+	}
+}

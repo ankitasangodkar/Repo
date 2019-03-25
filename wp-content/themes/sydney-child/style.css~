@@ -1,0 +1,64 @@
+/*
+ Theme Name:   Sydney Child
+ Theme URI:    http://www.localhost/creative_site
+ Description:  Sydney Child Theme
+ Author:       Ankita
+ Author URI:   http://example.com
+ Template:     sydney
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  sydney-child
+*/
+.site-header {
+  background-color: #ffffff;
+  box-shadow: 10px 6px 10px;
+  position: fixed;
+  z-index: 4;
+  width: 100%; }
+  .site-header .site-title a {
+    text-decoration: none;
+    color: #2eca6a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; }
+    .site-header .site-title a:hover {
+      color: #2eca6a; }
+
+.mainnav .menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+  list-style: none; }
+  .mainnav .menu .menu-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 0.75rem; }
+    .mainnav .menu .menu-item a:hover {
+      text-decoration: underline;
+      color: #2eca6a; }
+
+img.header-inner {
+  display: none; }
+
+.text-slider .maintitle {
+  position: absolute;
+  left: 23%;
+  top: 45%; }
+
+.category-blogs {
+  margin: 5rem 0; }
+
+.entry-header {
+  border-left: 3px solid #2eca6a;
+  padding: 4rem;
+  margin-bottom: 4rem;
+  box-shadow: 8px 8px 8px #eee; }
+  .entry-header .title-post {
+    font-weight: 600; }
+  .entry-header .single-meta {
+    font-size: 12px; }
+
+.site-footer {
+  padding: 20px; }
+  .site-footer .site-info a {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif; }

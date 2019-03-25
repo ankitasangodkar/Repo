@@ -1,0 +1,13 @@
+// header styles
+
+img.header-inner{
+	display:none;
+}
+
+.text-slider{
+.maintitle{
+	position: absolute;
+    left: 23%;
+    top: 45%;
+   }
+}

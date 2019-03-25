@@ -1,0 +1,21 @@
+
+/*
+ Theme Name:   Sydney Child
+ Theme URI:    http://www.localhost/creative_site
+ Description:  Sydney Child Theme
+ Author:       Ankita
+ Author URI:   http://example.com
+ Template:     sydney
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  sydney-child
+*/
+
+//import variables
+@import "variables";
+
+//import styles
+@import "navbar";
+@import "header";
+@import "global";
+@import "footer";

@@ -1,0 +1,52 @@
+//header
+//mainnav
+//menu-menu-1
+//menu-item
+
+//header
+
+
+.site-header{
+   background-color:$white;
+   box-shadow: 10px 6px 10px;
+   position: fixed;
+   z-index: 4;
+   width: 100%;
+     .site-title{
+        a{
+          text-decoration:none;
+          color: $green;
+          font-family: $font-family-style;
+          font-weight: $font-weight-bold;
+        &:hover{
+          color: $green;
+         }
+      }
+   }
+}
+
+.mainnav{
+   .menu{
+       display:flex;
+       justify-content:flex-end;
+       padding:2rem;
+       list-style:none;
+        .menu-item{
+            font:{
+              family: $font-family-style;
+              weight: $font-weight-bold;
+            }
+            padding:0.75rem;
+              a{
+                  &:hover{
+                    text-decoration:underline;
+                    color: $primary;
+                  }
+              }
+
+          }  
+     }
+}
+
+
+
