@@ -1,23 +1,28 @@
 # ignore everything in the root except the "wp-content" directory.
 /*
-wp-content/
+!.gitignore
+!wp-content/
+!wp-config.php
 
 # ignore everything in the "wp-content" directory, except:
 #plugins, and themes directories
 
 wp-content/*
-wp-content/plugins/
-wp-content/themes/
+!wp-content/plugins/
+!wp-content/themes/
 
-# ignore all plugins and themes except
+# Ignore everything in the "plugins" directory, except the 
+# plugins specified
 
 wp-content/plugins/*
-wp-content/plugins/elementor
+!wp-content/themes/elementor/
+
+# Ignore everything in the "plugins" directory, except the 
+# themes specified
 
 wp-content/themes/*
-wp-content/themes/sydney
-wp-content/themes/sydney-child
-
+!wp-content/themes/sydney/
+!wp-content/themes/sydney-child/
 
 # ignore all files starting with . or ~
 .*
@@ -45,14 +50,6 @@ wp-content/themes/sydney-child
 *.rar
 *.tar
 *.zip
-
-# track these files, if they exist
-!.gitignore
-!.editorconfig
-!.phpcs.xml.dist
-!README.md
-!CHANGELOG.md
-!composer.json
 
 
 
